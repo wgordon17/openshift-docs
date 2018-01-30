@@ -150,3 +150,19 @@ edit existing content or create new topics.
 some basic guidelines to keep things consistent across our content.
 * link:create_or_edit_content.adoc[Create a local working branch] on your
 workstation to edit existing topics or create new topics.
+
+=== How to deploy to OpenShift
+You can deploy to OpenShift for development by running
+
+---
+oc process -f asciibinder-template.yml -p NAME=docs \
+        -p SOURCE_REPOSITORY_URL=(git remote get-url origin) \
+        -p SOURCE_REPOSITORY_REF=(git rev-parse --abbrev-ref HEAD) \
+        | oc create -f -
+---
+
+You can delete all created objects by running
+
+---
+oc delete all -l app=docs
+---
