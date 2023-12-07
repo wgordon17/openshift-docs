@@ -37,6 +37,27 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
         rel="stylesheet">
 
+  <style>
+      .edit-button {
+          z-index: 1;
+      }
+      .edit-page-button {
+          /* Absolutely aligns element with next "relative" parent */
+          position: absolute;
+          top: 15px;
+          /* 25px to match parent padding */
+          right: 25px;
+      }
+      .edit-section-button {
+          float: right;
+          position: relative;
+          top: 5px;
+          right: 10px;
+      }
+      .sectionbody .edit-section-button {
+          top: 25px;
+      }
+  </style>
 </head>
 
 <body onload="selectVersion('<%= version %>');">
