@@ -2,9 +2,10 @@
 //
 // * microshift//running_applications/microshift-applications.adoc
 
-:_content-type: PROCEDURE
+:_mod-docs-content-type: PROCEDURE
 [id="microshift-manifests-override-paths_{context}"]
 = Override the list of manifest paths
+
 You can override the list of default manifest paths by using a new single path, or by using a new glob pattern for multiple files. Use the following procedure to customize your manifest paths.
 
 .Procedure

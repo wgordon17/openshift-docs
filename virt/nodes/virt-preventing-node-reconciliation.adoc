@@ -1,4 +1,4 @@
-:_content-type: ASSEMBLY
+:_mod-docs-content-type: ASSEMBLY
 [id="virt-using-skip-node"]
 = Preventing node reconciliation
 include::_attributes/common-attributes.adoc[]
@@ -13,5 +13,4 @@ include::modules/virt-using-skip-node.adoc[leveloffset=+1]
 [id="additional-resources_{context}"]
 [role="_additional-resources"]
 == Additional resources
-
 * xref:../../virt/nodes/virt-managing-node-labeling-obsolete-cpu-models.adoc#virt-managing-node-labeling-obsolete-cpu-models[Managing node labeling for obsolete CPU models]

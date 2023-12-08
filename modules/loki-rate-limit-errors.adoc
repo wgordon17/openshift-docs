@@ -1,8 +1,8 @@
 // Module is included in the following assemblies:
 // * logging/cluster-logging-loki.adoc
-// * logging/cluster-logging-external.adoc
+// * logging/log_collection_forwarding/log-forwarding.adoc
 
-:_content-type: PROCEDURE
+:_mod-docs-content-type: PROCEDURE
 [id="loki-rate-limit-errors_{context}"]
 = Troubleshooting Loki rate limit errors
 

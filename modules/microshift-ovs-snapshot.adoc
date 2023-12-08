@@ -2,7 +2,7 @@
 //
 // * microshift_networking/microshift-networking.adoc
 
-:_content-type: PROCEDURE
+:_mod-docs-content-type: PROCEDURE
 [id="microshift-OVS-snapshot_{context}"]
 = Getting a snapshot of OVS interfaces from a running cluster
 
@@ -10,7 +10,7 @@ A snapshot represents the state and data of OVS interfaces at a specific point i
 
 .Procedure
 
-* To see a snapshot of OVS interfaces from a running {product-title} cluster, use the following command:
+* To see a snapshot of OVS interfaces from a running {microshift-short} cluster, use the following command:
 +
 [source,terminal]
 ----
@@ -18,7 +18,6 @@ $ sudo ovs-vsctl show
 ----
 +
 .Example OVS interfaces in a running cluster
-
 [source,terminal]
 ----
 9d9f5ea2-9d9d-4e34-bbd2-dbac154fdc93
